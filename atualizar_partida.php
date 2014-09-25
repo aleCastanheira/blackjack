@@ -24,10 +24,10 @@ if ($_POST['dinheiro_atual'] != '')
             break;
     }
 
-    $username = 'root';
-    $password = 'root';
-    $host = 'localhost';
-    $database = 'blackjackfatec';
+    $username = 'u160480561_user';
+    $password = 'zWQ0UjXYeE';
+    $host = 'mysql.hostinger.com.br';
+    $database = 'u160480561_black';
 
     if (!session_id()) session_start();
     $email = $_SESSION['email'];

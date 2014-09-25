@@ -1,9 +1,9 @@
 <?php
     if (!empty($_POST)) {
-	$username = 'root';
-	$password = 'root';
-	$host = 'localhost';
-	$database = 'blackjackfatec';
+	$username = 'u160480561_user';
+	$password = 'zWQ0UjXYeE';
+	$host = 'mysql.hostinger.com.br';
+	$database = 'u160480561_black';
 	$executa = TRUE;
 	$msg_erro = '';
 
@@ -295,8 +295,10 @@ $usuario_logado = isset($_SESSION['email']);
     <?php } ?>
     </div>
     <div id="menu-externo">
-        <button id="quem-somos" title="Quem fez esta jeringonça?">Quem somos</button>
-        <button id="contato" title="Queremos saber a sua opinião! :D">Fale conosco</button>
+        <button id="quem-somos" title="Quem fez esta jeringonça?">Quem sou</button>
+        <!--
+            <button id="contato" title="Queremos saber a sua opinião! :D">Fale conosco</button>
+        -->
     </div>
     <aside id="menu-ranking">
         <header>Jogadores mais ricos</header>
@@ -313,12 +315,6 @@ $usuario_logado = isset($_SESSION['email']);
                 </tbody>
             </table>
         </article>
-        <br>
-        <audio src="media/musica.mp3" controls>Seu navegador não suporta HTML 5 :(</audio>
-        <video src="media/video.avi" controls>Seu navegador não suporta HTML 5 :(</video>
-        <div id="fb-box">
-	        <div class="fb-like" data-href="https://www.facebook.com/pages/Blackjackfatec/231536820341281" data-width="300" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
-        </div>
         <?php if ($usuario_logado) { ?>
             <div id="div-outros-botoes">
                 <button id="regras" title="Como se joga isso?">Regras</button>
@@ -328,10 +324,12 @@ $usuario_logado = isset($_SESSION['email']);
     </aside>
 
     <aside id="menu-quem-somos">
-        <header>Quem somos</header>
+        <header>Quem sou</header>
         <article>
-            <p>Alexandre Jorge Castanheira</p>
-            <p>Mônica dos Santos Gonçalves</p>
+            <p>
+                Alexandre Jorge Castanheira
+            </p>
+            
         </article>
     </aside>
 

@@ -380,7 +380,7 @@ function atualizarDinheiroAtual()
 function initBotoesResultado()
 {
     $('#btn-sobre').click(function(){
-        alert('Jogo feito por: \nAlexandre Jorge Castanheira\nMônica dos Santos Gonçalves\n\nEsperamos que tenham gostado. :)');
+        alert('Jogo feito por: \nAlexandre Jorge Castanheira\n\nEspero que tenha gostado. :)');
     });
 
     $('#btn-novo-jogo').click(function(){
@@ -720,7 +720,7 @@ $(document).ready(function(){
     });
 
     $('#quem-somos').click(function(){
-        if ($('#quem-somos').html() == 'Quem somos')
+        if ($('#quem-somos').html() == 'Quem sou')
         {
             $('#quem-somos').html('Voltar');
             $('#contato').html('Fale conosco');
@@ -729,7 +729,7 @@ $(document).ready(function(){
         }
         else
         {
-            $('#quem-somos').html('Quem somos');
+            $('#quem-somos').html('Quem sou');
             $('#contato').html('Fale conosco');
             $('#menu-quem-somos, #menu-contato').hide();
             $('#menu-ranking').show();
@@ -740,14 +740,14 @@ $(document).ready(function(){
         if ($('#contato').html() == 'Fale conosco')
         {
             $('#contato').html('Voltar');
-            $('#quem-somos').html('Quem somos');
+            $('#quem-somos').html('Quem sou');
             $('#menu-quem-somos, #menu-ranking').hide();
             $('#menu-contato').show();
         }
         else
         {
             $('#contato').html('Fale conosco');
-            $('#quem-somos').html('Quem somos');
+            $('#quem-somos').html('Quem sou');
             $('#menu-quem-somos, #menu-contato').hide();
             $('#menu-ranking').show();
         }

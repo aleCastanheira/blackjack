@@ -406,9 +406,9 @@ button {
 }
 
 #div-outros-botoes {
-    float: right;
+    margin: 20px auto;
     overflow: hidden;
-    width: 100px;
+    text-align: center;
 }
 
 #logoff:hover, #regras:hover {
